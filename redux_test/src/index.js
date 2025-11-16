@@ -9,7 +9,7 @@ ReactDOM.render(<App />, document.getElementById("root"));
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
-import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
+//import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 
