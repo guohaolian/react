@@ -16,7 +16,6 @@ import store from "./redux/store";
 const container = document.getElementById("root");
 const root = createRoot(container); // React 18 API
 root.render(
-  /* 此处需要用Provider包裹App，目的是让App所有的后代容器组件都能接收到store */
   <Provider store={store}>
     <App />
   </Provider>

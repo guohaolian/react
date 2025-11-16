@@ -16,8 +16,8 @@ import personReducer from "./reducers/person";
 
 const store = configureStore({
   reducer: {
-    count: countReducer,
-    persons: personReducer,
+    he: countReducer,
+    rens: personReducer,
   },
 });
 

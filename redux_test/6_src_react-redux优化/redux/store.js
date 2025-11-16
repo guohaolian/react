@@ -11,13 +11,11 @@ import thunk from 'redux-thunk'
 //暴露store
 export default createStore(countReducer,applyMiddleware(thunk)) */
 import { configureStore } from "@reduxjs/toolkit";
-import countReducer from "./reducers/count";
-import personReducer from "./reducers/person";
+import countReducer from "./count_reducer";
 
 const store = configureStore({
   reducer: {
     count: countReducer,
-    persons: personReducer,
   },
 });
 
