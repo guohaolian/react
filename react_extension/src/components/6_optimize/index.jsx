@@ -10,7 +10,7 @@ export default class Parent extends PureComponent {
 		this.setState({stus}) */
 
     const { stus } = this.state;
-    this.setState({ stus: ["小刘", ...stus] });
+    this.setState({ stus: ["小刘", ...stus] }); //标记点
   };
 
   changeCar = () => {
